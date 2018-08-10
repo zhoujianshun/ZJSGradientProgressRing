@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073210FD211D3C0D003EBF33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 073210FC211D3C0D003EBF33 /* AppDelegate.m */; };
+		07321100211D3C0D003EBF33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073210FF211D3C0D003EBF33 /* ViewController.m */; };
+		07321103211D3C0D003EBF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07321101211D3C0D003EBF33 /* Main.storyboard */; };
+		07321105211D3C0F003EBF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07321104211D3C0F003EBF33 /* Assets.xcassets */; };
+		07321108211D3C0F003EBF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07321106211D3C0F003EBF33 /* LaunchScreen.storyboard */; };
+		0732110B211D3C0F003EBF33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732110A211D3C0F003EBF33 /* main.m */; };
+		07321115211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07321114211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests.m */; };
+		07321120211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732111F211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests.m */; };
+		07321130211D3C23003EBF33 /* ZJSGradientProgressRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732112F211D3C23003EBF33 /* ZJSGradientProgressRing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07321111211D3C10003EBF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073210F0211D3C0D003EBF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 073210F7211D3C0D003EBF33;
+			remoteInfo = ZJSGradientProgressRingDemo;
+		};
+		0732111C211D3C10003EBF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073210F0211D3C0D003EBF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 073210F7211D3C0D003EBF33;
+			remoteInfo = ZJSGradientProgressRingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073210F8211D3C0D003EBF33 /* ZJSGradientProgressRingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJSGradientProgressRingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		073210FB211D3C0D003EBF33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		073210FC211D3C0D003EBF33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		073210FE211D3C0D003EBF33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		073210FF211D3C0D003EBF33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07321102211D3C0D003EBF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07321104211D3C0F003EBF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07321107211D3C0F003EBF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07321109211D3C0F003EBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0732110A211D3C0F003EBF33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07321110211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJSGradientProgressRingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07321114211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJSGradientProgressRingDemoTests.m; sourceTree = "<group>"; };
+		07321116211D3C10003EBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0732111B211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJSGradientProgressRingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0732111F211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJSGradientProgressRingDemoUITests.m; sourceTree = "<group>"; };
+		07321121211D3C10003EBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0732112E211D3C23003EBF33 /* ZJSGradientProgressRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSGradientProgressRing.h; sourceTree = "<group>"; };
+		0732112F211D3C23003EBF33 /* ZJSGradientProgressRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSGradientProgressRing.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073210F5211D3C0D003EBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0732110D211D3C10003EBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07321118211D3C10003EBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073210EF211D3C0D003EBF33 = {
+			isa = PBXGroup;
+			children = (
+				073210FA211D3C0D003EBF33 /* ZJSGradientProgressRingDemo */,
+				07321113211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests */,
+				0732111E211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests */,
+				073210F9211D3C0D003EBF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		073210F9211D3C0D003EBF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				073210F8211D3C0D003EBF33 /* ZJSGradientProgressRingDemo.app */,
+				07321110211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests.xctest */,
+				0732111B211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		073210FA211D3C0D003EBF33 /* ZJSGradientProgressRingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0732112D211D3C23003EBF33 /* ZJSGradientProgressRing */,
+				073210FB211D3C0D003EBF33 /* AppDelegate.h */,
+				073210FC211D3C0D003EBF33 /* AppDelegate.m */,
+				073210FE211D3C0D003EBF33 /* ViewController.h */,
+				073210FF211D3C0D003EBF33 /* ViewController.m */,
+				07321101211D3C0D003EBF33 /* Main.storyboard */,
+				07321104211D3C0F003EBF33 /* Assets.xcassets */,
+				07321106211D3C0F003EBF33 /* LaunchScreen.storyboard */,
+				07321109211D3C0F003EBF33 /* Info.plist */,
+				0732110A211D3C0F003EBF33 /* main.m */,
+			);
+			path = ZJSGradientProgressRingDemo;
+			sourceTree = "<group>";
+		};
+		07321113211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07321114211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests.m */,
+				07321116211D3C10003EBF33 /* Info.plist */,
+			);
+			path = ZJSGradientProgressRingDemoTests;
+			sourceTree = "<group>";
+		};
+		0732111E211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0732111F211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests.m */,
+				07321121211D3C10003EBF33 /* Info.plist */,
+			);
+			path = ZJSGradientProgressRingDemoUITests;
+			sourceTree = "<group>";
+		};
+		0732112D211D3C23003EBF33 /* ZJSGradientProgressRing */ = {
+			isa = PBXGroup;
+			children = (
+				0732112E211D3C23003EBF33 /* ZJSGradientProgressRing.h */,
+				0732112F211D3C23003EBF33 /* ZJSGradientProgressRing.m */,
+			);
+			name = ZJSGradientProgressRing;
+			path = ../../ZJSGradientProgressRing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		073210F7211D3C0D003EBF33 /* ZJSGradientProgressRingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07321124211D3C10003EBF33 /* Build configuration list for PBXNativeTarget "ZJSGradientProgressRingDemo" */;
+			buildPhases = (
+				073210F4211D3C0D003EBF33 /* Sources */,
+				073210F5211D3C0D003EBF33 /* Frameworks */,
+				073210F6211D3C0D003EBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJSGradientProgressRingDemo;
+			productName = ZJSGradientProgressRingDemo;
+			productReference = 073210F8211D3C0D003EBF33 /* ZJSGradientProgressRingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0732110F211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07321127211D3C10003EBF33 /* Build configuration list for PBXNativeTarget "ZJSGradientProgressRingDemoTests" */;
+			buildPhases = (
+				0732110C211D3C10003EBF33 /* Sources */,
+				0732110D211D3C10003EBF33 /* Frameworks */,
+				0732110E211D3C10003EBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07321112211D3C10003EBF33 /* PBXTargetDependency */,
+			);
+			name = ZJSGradientProgressRingDemoTests;
+			productName = ZJSGradientProgressRingDemoTests;
+			productReference = 07321110211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0732111A211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0732112A211D3C10003EBF33 /* Build configuration list for PBXNativeTarget "ZJSGradientProgressRingDemoUITests" */;
+			buildPhases = (
+				07321117211D3C10003EBF33 /* Sources */,
+				07321118211D3C10003EBF33 /* Frameworks */,
+				07321119211D3C10003EBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0732111D211D3C10003EBF33 /* PBXTargetDependency */,
+			);
+			name = ZJSGradientProgressRingDemoUITests;
+			productName = ZJSGradientProgressRingDemoUITests;
+			productReference = 0732111B211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		073210F0211D3C0D003EBF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "周建顺";
+				TargetAttributes = {
+					073210F7211D3C0D003EBF33 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0732110F211D3C10003EBF33 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 073210F7211D3C0D003EBF33;
+					};
+					0732111A211D3C10003EBF33 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 073210F7211D3C0D003EBF33;
+					};
+				};
+			};
+			buildConfigurationList = 073210F3211D3C0D003EBF33 /* Build configuration list for PBXProject "ZJSGradientProgressRingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 073210EF211D3C0D003EBF33;
+			productRefGroup = 073210F9211D3C0D003EBF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				073210F7211D3C0D003EBF33 /* ZJSGradientProgressRingDemo */,
+				0732110F211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests */,
+				0732111A211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		073210F6211D3C0D003EBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07321108211D3C0F003EBF33 /* LaunchScreen.storyboard in Resources */,
+				07321105211D3C0F003EBF33 /* Assets.xcassets in Resources */,
+				07321103211D3C0D003EBF33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0732110E211D3C10003EBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07321119211D3C10003EBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073210F4211D3C0D003EBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07321100211D3C0D003EBF33 /* ViewController.m in Sources */,
+				0732110B211D3C0F003EBF33 /* main.m in Sources */,
+				07321130211D3C23003EBF33 /* ZJSGradientProgressRing.m in Sources */,
+				073210FD211D3C0D003EBF33 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0732110C211D3C10003EBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07321115211D3C10003EBF33 /* ZJSGradientProgressRingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07321117211D3C10003EBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07321120211D3C10003EBF33 /* ZJSGradientProgressRingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07321112211D3C10003EBF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 073210F7211D3C0D003EBF33 /* ZJSGradientProgressRingDemo */;
+			targetProxy = 07321111211D3C10003EBF33 /* PBXContainerItemProxy */;
+		};
+		0732111D211D3C10003EBF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 073210F7211D3C0D003EBF33 /* ZJSGradientProgressRingDemo */;
+			targetProxy = 0732111C211D3C10003EBF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07321101211D3C0D003EBF33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07321102211D3C0D003EBF33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07321106211D3C0F003EBF33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07321107211D3C0F003EBF33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07321122211D3C10003EBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07321123211D3C10003EBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07321125211D3C10003EBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSGradientProgressRingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSGradientProgressRingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07321126211D3C10003EBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSGradientProgressRingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSGradientProgressRingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07321128211D3C10003EBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSGradientProgressRingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSGradientProgressRingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJSGradientProgressRingDemo.app/ZJSGradientProgressRingDemo";
+			};
+			name = Debug;
+		};
+		07321129211D3C10003EBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSGradientProgressRingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSGradientProgressRingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJSGradientProgressRingDemo.app/ZJSGradientProgressRingDemo";
+			};
+			name = Release;
+		};
+		0732112B211D3C10003EBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSGradientProgressRingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSGradientProgressRingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJSGradientProgressRingDemo;
+			};
+			name = Debug;
+		};
+		0732112C211D3C10003EBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSGradientProgressRingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSGradientProgressRingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJSGradientProgressRingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073210F3211D3C0D003EBF33 /* Build configuration list for PBXProject "ZJSGradientProgressRingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07321122211D3C10003EBF33 /* Debug */,
+				07321123211D3C10003EBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07321124211D3C10003EBF33 /* Build configuration list for PBXNativeTarget "ZJSGradientProgressRingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07321125211D3C10003EBF33 /* Debug */,
+				07321126211D3C10003EBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07321127211D3C10003EBF33 /* Build configuration list for PBXNativeTarget "ZJSGradientProgressRingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07321128211D3C10003EBF33 /* Debug */,
+				07321129211D3C10003EBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0732112A211D3C10003EBF33 /* Build configuration list for PBXNativeTarget "ZJSGradientProgressRingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0732112B211D3C10003EBF33 /* Debug */,
+				0732112C211D3C10003EBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 073210F0211D3C0D003EBF33 /* Project object */;
+}
